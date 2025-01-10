@@ -1,0 +1,287 @@
+.azeret-mono {
+    font-family: "Azeret Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+  }
+*{
+    margin:0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+    
+}
+.name{font-weight: 800px;
+    font-size: 28px;
+    color: #0d1321;
+}
+.btn{
+    width: 244px;
+    height: 57px;
+    border-radius: 8px;
+    border-color: #0d1321;
+    background-color: #ffffff;
+    margin-top: 38px;
+}
+.banner-container{
+    
+    width: 100%;
+    height: 652px;
+    background-image: url(assets/Hero-bg.png);
+    text-align: center;
+
+    
+    
+}
+
+.img{
+    
+    
+    width: 241px;
+}
+.banner-contant1{
+    
+    text-align: center;
+   
+    justify-content: center;
+    margin: 0px 221px 142px 300px;
+}
+    
+.banner-title{
+    
+    width: 900px;
+    color: #0d1321;
+    font-size: 48px;
+    
+}
+.banner-description
+{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #0d1321;
+    opacity: 70%;
+    
+    /* width: 852px; */
+    /* height: 52px; */
+}
+.btn-primary{padding: 21px 24px;
+    border-radius: 8px;
+    background-color: #0d1321;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.btn-primaryy{
+    
+    margin-right: 50px;
+    
+}
+
+.main-dev{
+    width: 1140px;
+    background-color: rgba(13, 19, 33, 0.02);
+    /* margin: 74px 152px 0px 148px; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+margin-top: 74px;
+}
+.web-dev-container h1{
+    font-size: 32px;
+    font-weight: 800px;
+    
+    
+}
+.web-dev-container p{
+    font-size: 16px;
+    opacity: 70%;
+    margin-bottom: 48px;
+}
+.box-1, .box-2, .box-3{ 
+    /* background-color: rgba(255, 255, 255, 1); */
+    background: linear-gradient( to right, #ffffff, rgba(13,19,33,0.02));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    /* box-shadow: 4px 4px 8px gray; */
+    padding-left: 48px;
+}
+.box-1-left h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+}
+.box-1-left button{
+    border-color: rgba(13, 19, 33, 11);
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(13, 19, 33, 1) ;
+
+}
+.box-1-right{
+    width: 274px;
+    height: 240px;
+    padding: 48px;
+}
+
+
+.box-2{
+    margin-top: 32px;
+}
+
+.box-2-right h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+}
+.box-2-right button{
+    border-color: rgba(13, 19, 33, 11);
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(13, 19, 33, 1) ;
+
+}
+.box-2-left{
+    width: 274px;
+    height: 240px;
+    padding: 48px;
+}
+
+.box-3{
+    margin-top: 32px;
+}
+
+.box-3-left h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+}
+.box-3-left button{
+    border-color: rgba(13, 19, 33, 11);
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(13, 19, 33, 1) ;
+
+}
+.box-3-right{
+    width: 274px;
+    height: 240px;
+    padding: 48px;
+}
+.title{
+    font-size: 32px;
+    font-weight: 800px;
+    text-align: center;
+}
+.inpiration-p{
+    font-size: 16px;
+    opacity: 70%;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.inpiration iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    /* margin: 80px 100px 0px 180px; */
+    /* margin: 0 auto; */
+    margin-left: 200px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin:0px 150px 150px 150px;
+    
+}
+.skill{
+    border-radius: 16px;
+    padding: 40px;
+    
+}
+.skill1{
+    background-color: rgba(255,76,30,0.05);
+}
+.skill2{
+    background-color: rgba(0,76,232,0.05);
+}
+.skill3{
+    background-color: rgba(255, 221, 0, 0.196);
+}
+.learn{
+   
+    font-size: 16px;
+    font-weight: bold;
+    color: #0d1321;
+}
+.skills-container2{
+    display: flex;
+    flex-direction: column;
+    margin:0px 150px 150px 150px;
+    
+    
+}
+.skillv{
+    
+    border-radius: 16px;
+    padding: 40px;
+    border: 1px solid #acabab;
+    margin-bottom: 24px;
+
+}
+.skill4, .skill5, .skill6
+{display: flex;
+align-items: center;
+gap: 24px;}
+.support{
+    background-image: url('assets/handshake.jpg');
+    border-radius: 16px;
+    width: 1140px;
+    height: 313px;
+    
+}
+.form{border: 1px;
+    border-color:  rgba(13, 19,33,0.15);
+    border-radius: 8px;
+    width: 548px;
+    height: 57px;
+    font-family:azeret-mono ;
+    font-size: 16px;
+    
+}
+.btn-form{
+    border-radius: 8px;
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600px;
+    border: 1px solid;
+    /* align-items: center; */
+    
+    
+}
+footer{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(13,19,33,0.03);
+    border-radius: 16px;
+    margin-top: 80px;
+}
+.btn-support{
+    
+    margin-left: 228px;
+    
+}
+.icon img{
+    margin-right: 24px;
+}
